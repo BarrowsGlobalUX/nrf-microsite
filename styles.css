@@ -118,13 +118,13 @@ h2 {
   justify-content: center;
 }
 .pg-confirmation .confirm {
-  padding-top: 25%;
+  padding-top: 45%;
 }
 .try-on a,
 .confirmation,
 .okay {
   position: fixed;
-  top: 75%;
+  top: 60%;
   background: #434748;
   color: #fff;
   width: 250px;
