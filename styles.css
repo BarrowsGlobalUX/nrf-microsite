@@ -28,12 +28,13 @@ h1 span {
   color: #434748;
 }
 .product-desc {
-  width: 275ffpx;
-  height: 275ffpx;
+  width: 275px;
+  height: 275px;
   margin-bottom: 70px;
   display: flex;
   padding-left: 20px;
   padding-bottom: 10px;
+  background-size: cover;
 }
 .product-desc span {
   align-self: flex-end;
