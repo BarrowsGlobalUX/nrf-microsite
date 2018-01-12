@@ -140,6 +140,9 @@ h2 {
   padding: 1%;
   font-size: 18pt;
 }
+.confirmation {
+  top: 72%;
+}
 .okay {
   top: 50%;
 }
@@ -187,7 +190,7 @@ footer.row {
   display: flex;
 }
 .size-selection:last-of-type {
-  width: 46%;
+  width: 47%;
   justify-content: space-between;
 }
 .swatch {
@@ -206,7 +209,7 @@ footer.row {
   line-height: 100px;
   font-size: 36px;
   color: #979797;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 .size.active {
   border: 3px solid #434748;
