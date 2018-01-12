@@ -16,7 +16,7 @@ h3 {
 }
 a:hover,
 a:focus {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 header h1 {
   padding-bottom: 35px;
