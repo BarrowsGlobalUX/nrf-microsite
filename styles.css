@@ -149,7 +149,7 @@ footer {
 footer .col-sm-12 {
   padding: 0;
 }
-footer .row {
+footer.row {
   margin-top: 0;
   margin-bottom: 0;
 }
