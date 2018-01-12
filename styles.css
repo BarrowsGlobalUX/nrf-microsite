@@ -82,9 +82,6 @@ h1 span {
   background-image: url("images/home/home-f.png");
   background-size: contain;
 }
-.carousel {
-  width: 970px;
-}
 .carousel-control.right,
 .carousel-control.left {
   background-image: none;
@@ -145,16 +142,22 @@ h2 {
 }
 footer {
   border-top: 2px solid #979797;
-  position: absolute;
-  bottom: 0;
-  max-width: 980px;
-  min-width: 970px;
-  margin: 0 auto;
+}
+footer .col-sm-12 {
+  padding: 0;
 }
 .footer-menu {
   padding-top: 3%;
   display: flex;
   justify-content: space-between;
+}
+.footer-menu img {
+  margin-right: 20px;
+  max-width: 140px;
+  height: auto;
+}
+.footer-menu img:last-of-type {
+  margin-right: 0;
 }
 .selected-product {
   opacity: 0.3;
