@@ -95,7 +95,8 @@ h1 span {
 .product-page header {
   margin-bottom: 0;
 }
-.product-page .row:first-of-type {
+.product-page .row:first-of-type,
+.try .row:first-of-type {
   margin-top:0;
 }
 .carousel-container {
@@ -194,7 +195,7 @@ footer.row {
   display: flex;
 }
 .size-selection:last-of-type {
-  width: 48.5%;
+  width: 50%;
   justify-content: space-between;
 }
 .swatch {
@@ -215,7 +216,7 @@ footer.row {
   line-height: 90px;
   font-size: 24px;
   color: #979797;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .size.active {
   border: 3px solid #434748;
