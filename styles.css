@@ -137,8 +137,8 @@ h2 {
 .try-on a,
 .confirmation,
 .okay {
-  position: fixed;
-  top: 66%;
+  /* position: fixed; */
+  /* top: 66%; */
   background: #434748;
   color: #fff;
   width: 250px;
