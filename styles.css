@@ -10,6 +10,10 @@ h3 {
   font-size: 20px;
   line-height: 1;
 }
+a:hover,
+a:focus {
+  text-decoration: none;
+}
 header h1 {
   padding-bottom: 35px;
   text-align: center;
@@ -195,7 +199,7 @@ footer.row {
   display: flex;
 }
 .size-selection:last-of-type {
-  width: 50%;
+  width: 48.5%;
   justify-content: space-between;
 }
 .swatch {
@@ -216,7 +220,7 @@ footer.row {
   line-height: 90px;
   font-size: 24px;
   color: #979797;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .size.active {
   border: 3px solid #434748;
