@@ -136,8 +136,6 @@ h2 {
 .try-on,
 .confirm {
   padding-top: 5%;
-  display: flex;
-  justify-content: center;
 }
 .pg-confirmation .confirm {
   padding-top: 45%;
@@ -156,7 +154,8 @@ h2 {
   top: 72%;
 }
 .okay {
-  top: 50%;
+ display: block;
+    margin: 0 auto;
 }
 footer {
   border-top: 2px solid #979797;
