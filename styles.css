@@ -3,8 +3,10 @@ body {
   color: #434748;
   text-transform: uppercase;
 }
+h1 {
+  font-size: 30px;
+}
 header h1 {
-  width: 970px;
   padding-bottom: 35px;
   text-align: center;
   border-bottom: 2px solid #979797;
@@ -22,8 +24,8 @@ h1 span {
   color: #434748;
 }
 .product-desc {
-  width: 450px;
-  height: 450px;
+  width: 350px;
+  height: 350px;
   margin-bottom: 70px;
   display: flex;
   padding-left: 20px;
@@ -58,21 +60,27 @@ h1 span {
 /* product background images */
 #sku1 {
   background-image: url("images/home/home-a.png");
+  background-size: contain;
 }
 #sku2 {
   background-image: url("images/home/home-b.png");
+  background-size: contain;
 }
 #sku3 {
   background-image: url("images/home/home-c.png");
+  background-size: contain;
 }
 #sku4 {
   background-image: url("images/home/home-d.png");
+  background-size: contain;
 }
 #sku5 {
   background-image: url("images/home/home-e.png");
+  background-size: contain;
 }
 #sku6 {
   background-image: url("images/home/home-f.png");
+  background-size: contain;
 }
 .carousel {
   width: 970px;
