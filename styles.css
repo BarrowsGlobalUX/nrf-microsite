@@ -96,11 +96,14 @@ h1 span {
 .carousel-control.left {
   background-image: none;
 }
-.product-page header {
+.product-page header.row,
+.try header.row,
+.pg-confirmation header.row {
   margin-bottom: 0;
 }
-.product-page .row:first-of-type,
-.try .row:first-of-type {
+.product-page section:first-of-type,
+.try section:first-of-type,
+.pg-confirmation section:first-of-type {
   margin-top:0;
 }
 .carousel-container {
